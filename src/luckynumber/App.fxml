@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="194.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="luckynumber.AppController">
+    <children>
+        <Button defaultButton="true" layoutX="234.0" layoutY="94.0" onAction="#calculate" text="Calculate" />
+        <Label layoutX="185.0" layoutY="28.0" minHeight="16" minWidth="69" text="What's your lucky number?" />
+      <DatePicker fx:id="datePicker" layoutX="175.0" layoutY="53.0" />
+      <Label fx:id="result" layoutX="179.0" layoutY="148.0" prefHeight="15.0" prefWidth="198.0" textAlignment="CENTER" />
+    </children>
+</AnchorPane>
